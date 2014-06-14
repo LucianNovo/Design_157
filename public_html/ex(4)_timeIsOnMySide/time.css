@@ -1,0 +1,52 @@
+* {
+	margin: 0; 
+	padding: 0; 
+}
+
+body { 
+	font-size: 62.5%; 
+	font-family: 'Lucida Grande', Helvetica, sans-serif;
+	background: #FFF;
+	padding: 20px;
+}
+
+tr { 
+	vertical-align: top;
+	padding-left: 0px;
+	margin-left: 0px;
+}
+
+.post { 
+	width: 600px; 
+}
+
+.post.svgPost{
+}
+
+.post.lastPost{
+	width: 300px;
+}
+
+.balance {
+	color: #0BCEDE
+}
+
+.exploration{
+	color:#FF8351;
+}
+
+.meeting{
+	color:#FFEA54
+}
+.work { 
+	color:#FF5744;
+}
+
+
+p { font-size: 1.2em; margin: 0 0 15px 0; }
+h1 { font-family: Helvetica, sans-serif; font-size: 4.0em;
+							  letter-spacing: -1px; color: #ccc; }
+h2 { font-family: Helvetica, sans-serif; font-size: 2.0em;
+							  letter-spacing: -1px; color: #ccc; }
+a { color: #0066cc; }
+a:hover { color: #ccc; }

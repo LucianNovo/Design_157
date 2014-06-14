@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	
+	<title>Heartline</title>
+	
+	<link rel="stylesheet" href="time.css">
+	<link rel="text/javascrip" href="time.js">
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="jquery.mousewheel.js"></script>
+	<script>
+	$(function(){
+		$("#page-wrap").wrapInner("<table cellspacing='30'><tr>");
+		$(".post").wrap("<td></td>");
+		$("body").mousewheel(function(event, delta) {
+			this.scrollLeft -= (delta * 30);
+			event.preventDefault();
+		});   
+	});
+	</script>
+</head>
+
+<body>
+	
+	<div id="page-wrap">	
+		<div class="post svgPost">
+			<h1>Daily Lifeline</h1>
+			<h2>by that guy, Lucian</h2>
+			<!-- <h2>Hi! I'm a Timeline event!</h2> -->
+			<img src="heart.svg">
+		</div>
+		<div class="post morning" id="715">
+			<h2 class="balance">Get's up with the Sun</h2>
+			<p>I keep the sun in check. I'm up before dawn, down after it sets.</p>
+		</div>
+		<div class="post morning" id="730">
+			<h2 class="balance">Brush my teeth</h2>
+			<p>Try not to think too hard about it.</p>
+		</div>
+		<div class="post morning" id="745">
+			<h2 class="balance">Meditation</h2>
+			<p>I listen to myself before I subject others.</p>
+		</div>
+		<div class="post morning" id="800">
+			<h2 class="balance" >Makn' (veggie) Bacn'</h2>
+			<p>Everyone's welcome to the Club Sandwich.</p>
+		</div>
+		<div class="post morning " id="815">
+			<h2 class="work">Open the Laptop</h2>
+			<p>Relize I'm in the last minute.</p>
+		</div>
+		<div class="post morning" id="830">
+			<h2 class="work">Finish old work, tune into the news.</h2>
+			<p>Starting with the cartoon section</p>
+		</div>
+		<div class="post morning" id="845">
+			<h2 class="balance" >Get ready for Lecture</h2>
+			<p>Come early, stay after, ask questions and help others.</p>
+		</div>
+		<div class="post morning" id="900">
+			<h2 class="work">Try not to talk so loudely</h2>
+			<p>I put the class in class.</p>
+		</div>
+		<div class="post morning" id="915">
+			<h2 class="work">Practice calligraffiti.</h2>
+			<p>Swear words never looked so beautiful.</p>
+		</div>
+		<div class="post morning" id="930">
+			<h2 class="work">Activate deep listening.</h2>
+			<p>It's all about silver bullet points.</p>
+		</div>
+		<div class="post morning" id="945">
+			<h2 class="work">Thinking about the infinite</br> possiilities in my pocket.</h2>
+			<p>4 numerals to freedom.</p>
+		</div>
+		<div class="post morning" id="1000">
+			<h2 class="work">Now I got my swag back.</h2>
+			<p>That was interesting. Time for work!</p>
+		</div>
+		<div class="post morning " id="1015">
+			<h2 class="work">Nothing is certain but work.</h2>
+			<p>Put down one juggling ball, pick up another.</p>
+		</div>
+		<div class="post afternoon " id="1030">
+			<h2 class="work">Nothing will work if you don't.</h2>
+			<p>Everything you see around you was made by people,</br> and you can change it. Through your work of course.</p>
+		</div>
+		<div class="post afternoon" id="1045">
+			<h2 class="work">We all make work, but in the end</br> our work makes us.</h2>
+			<p>Work until your idea is what's reality.</p>
+		</div>
+		<div class="post afternoon" id="1100">
+			<h2 class="meeting">Lunch. All you and your friends can eat.</h2>
+			<p>Infinite DC food for $3 and some bargaining.</p>
+		</div>
+		<div class="post afternoon" id="1115">
+			<h2 class="meeting">Overlap venn diagrams.</h2>
+			<p>In general, your friend represents 50% of the population.</br> If they  disagree with you, 50% of the population will as well.</p>
+		</div>
+		<div class="post afternoon" id="1130">
+			<h2 class="meeting">Talk about future plans.</h2>
+			<p>Road trips, buying tickets, and equity.</p>
+		</div>
+		<div class="post afternoons" id="1145">
+			<h2 class="balance" >Preggers with a food baby.</h2>
+			<p>We don't have to go home but I can't stay here.</p>
+		</div>
+		<div class="post afternoon " id="1200">
+			<h2 class="meeting">Let's split up gang.</h2>
+			<p>I share that link later. HFGL.</p>
+		</div>
+		<div class="post afternoon" id="1215">
+			<h2 class="exploration">Who's just had their 15 minutes of fame?</h2>
+			<p>new.ycombinator.com</p>
+		</div>
+		<div class="post afternoon" id="1230">
+			<h2 class="exploration">My nose couldn't be further from the grindstone</h2>
+			<p>Bookmarking, favoriting, posting, updating, refreshing.</p>
+		</div>
+		<div class="post afternoon" id="1245">
+			<h2 class="exploration">Opening tabs > closing tabs.</h2>
+			<p>It's all apart of the creative process I swear.</p>
+		</div>
+		<div class="lastPost afternoon" id="100">
+			<h2 class="work">Quit everything.</h2>
+			<p>Chrome is reborn as productive.</p>
+		</div>
+	
+	</div>
+	
+</body>
+
+</html>

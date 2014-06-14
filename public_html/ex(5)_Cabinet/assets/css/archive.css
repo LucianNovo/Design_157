@@ -1,0 +1,166 @@
+
+* {
+  font-family: 'Lato';
+  color: #474747;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden
+}
+
+h1 { 
+}
+
+p{
+
+}
+
+nav {
+    position:absolute; 
+    right: 5%; 
+    top: 45%; 
+    padding: 120px; 
+    border-radius: 40px; 
+    opacity: .001; 
+    background-color: #999;
+    cursor: pointer;}
+    nav: hover {
+}
+
+nav.tool.fabradeus{
+    /*Sewing*/
+    background-color: red;
+    top: 38%;
+    right: inherit;
+    left: 44%;
+}
+
+nav.tool.hammid{
+    /*hammers/tools*/
+    background-color: orange;
+    top: 74%;
+    right: inherit;
+    left: 10%;
+}
+
+nav.tool.hephaestus {
+    /*3DPrinter*/
+    background-color: yellow;
+    top: 36%;
+    right: inherit;
+    left: 24%;
+}
+
+nav.tool.apollo {
+    /*Music*/
+    background-color: green;
+    right: inherit;
+    top: 10%;
+    left: 44%;
+}
+
+nav.tool.casteous{ 
+    /*Foam cutter*/
+    top: 37%;
+    right: 17%;
+    background-color: blue;
+}
+
+#wrapper {
+    position: relative;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+section p {
+    margin-bottom: 30px
+}
+section p:last-child {
+    margin-bottom: 0
+}
+section:last-child {
+    margin-bottom: 0
+}
+section.toggle {
+    text-align: center
+}
+.mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 15;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+/* general style for all menus */
+nav.menu {
+    position: fixed;
+    z-index: 20;
+    background-color: #67b5d1;
+    overflow: hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+nav.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav.menu a {
+    font-weight: 300;
+    color: #fff;
+}
+button.close-menu {
+    background-color: #3184a1;
+    color: #fff;
+}
+button.close-menu:focus {
+    outline: none
+}
+
+/*bottom specific footer*/
+nav.slide-menu-bottom {
+    left: 0;
+    width: 20%;
+    height: 100px;
+}
+nav.slide-menu-bottom ul {
+    text-align: center;
+    padding: 25px 0 0 0;
+}
+nav.slide-menu-bottom li{
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+}
+nav.slide-menu-bottom a{
+    display: block;
+    line-height: 50px;
+    padding: 0 10px;
+    font-size: 18px;
+}
+nav.slide-menu-bottom button.close-menu{
+    display: block;
+    line-height: 50px;
+    margin: 0;
+    padding: 0 10px;
+}
+nav.slide-menu-bottom {
+    bottom: -100px
+}
+body.smb-open nav.slide-menu-bottom {
+    bottom: 0
+}

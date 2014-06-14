@@ -1,0 +1,106 @@
+   <div class=theSVG style="z-index:1; width:100%; height: 100%; margin-left:auto; margin-right:auto; display: block; position:absolute; margin-left:auto; margin-right:auto;">
+      <?xml version="1.0" encoding="utf-8"?>
+         <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+         <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="90%" height="90%" style="margin-left:auto; margin-right:auto; display: block;"
+            width="1167.5px" height="788px" viewBox="0 0 1167.5 788" enable-background="new 0 0 1167.5 788" xml:space="preserve">
+         <g>
+           <g>
+             <path fill="#DC0A2D" d="M589,743.9c0,7-5.8,12.8-12.8,12.8H40.8c-7,0-12.8-5.8-12.8-12.8V44.1c0-7,5.8-12.8,12.8-12.8h535.4
+               c7,0,12.8,5.8,12.8,12.8V743.9z"/>
+           </g>
+           <g>
+             <path fill="#DC0A2D" d="M1139.5,744c0,7-5.7,12.7-12.7,12.7H601.6c-7,0-12.7-5.7-12.7-12.7V44c0-7,5.7-12.7,12.7-12.7h525.3
+               c7,0,12.7,5.7,12.7,12.7V744z"/>
+           </g>
+           <rect x="632" y="88.6" fill="#DEDEDE" width="464.5" height="360.9"/>
+           <g>
+             <rect x="632" y="500.4" fill="#DEDEDE" width="119.1" height="107.3"/>
+             <rect x="751.1" y="500.4" fill="#DEDEDE" width="119.1" height="107.3"/>
+           </g>
+           <g>
+             <g>
+               <path fill="#DEDEDE" d="M66.8,444.3c-7.2-6-13.1-18.6-13.1-27.9V74.9c0-9.4,7.7-17,17-17h479.5c9.4,0,17,7.7,17,17v415.6
+                 c0,9.4-7.7,17-17,17H159.8c-9.4,0-22.9-4.9-30.1-10.9L66.8,444.3z"
+                 />
+             </g>
+             <circle fill="#FF002B" cx="173" cy="459.1" r="17.6"/>
+             <g>
+               <circle fill="#FF002B" cx="278.5" cy="92.1" r="8.2"/>
+               <path fill="#FF002B" d="M350.6,92.1c0,4.5-3.7,8.2-8.2,8.2c-4.5,0-8.2-3.7-8.2-8.2c0-4.5,3.7-8.2,8.2-8.2
+                 C346.9,83.9,350.6,87.6,350.6,92.1z"/>
+             </g>
+               <rect x="83.1" y="118.2" fill="#232323" id="pockescreen" width="454.6" height="297.5" onmouseover="evt.target.setAttribute('opacity', '0.5');" onmouseout="evt.target.setAttribute('opacity','1)');"/>
+             <g>
+               
+                 <line fill="none" stroke="#231F20" stroke-width="3.4067" stroke-linecap="round" stroke-miterlimit="10" x1="447.5" y1="438.6" x2="521.2" y2="438.6"/>
+               
+                 <line fill="none" stroke="#231F20" stroke-width="3.4067" stroke-linecap="round" stroke-miterlimit="10" x1="447.5" y1="455.1" x2="521.2" y2="455.1"/>
+               
+                 <line fill="none" stroke="#231F20" stroke-width="3.4067" stroke-linecap="round" stroke-miterlimit="10" x1="447.5" y1="471.5" x2="521.2" y2="471.5"/>
+               
+                 <line fill="none" stroke="#231F20" stroke-width="3.4067" stroke-linecap="round" stroke-miterlimit="10" x1="447.5" y1="488" x2="521.2" y2="488"/>
+             </g>
+           </g>
+           <g>
+             <g>
+               <path fill="#E9667C" d="M986.8,488.1c0,3.5-3.5,6.4-7.8,6.4h-73.7c-4.3,0-7.8-2.9-7.8-6.4c0-3.5,3.5-6.4,7.8-6.4H979
+                 C983.3,481.7,986.8,484.6,986.8,488.1z"/>
+               <path fill="none" stroke="#231F20" stroke-width="0.7847" stroke-miterlimit="10" d="M986.8,488.1c0,3.5-3.5,6.4-7.8,6.4h-73.7
+                 c-4.3,0-7.8-2.9-7.8-6.4c0-3.5,3.5-6.4,7.8-6.4H979C983.3,481.7,986.8,484.6,986.8,488.1z"/>
+             </g>
+             <g>
+               <path fill="#036592" d="M1091.9,488.1c0,3.5-3.5,6.4-7.8,6.4h-73.7c-4.3,0-7.8-2.9-7.8-6.4c0-3.5,3.5-6.4,7.8-6.4h73.7
+                 C1088.4,481.7,1091.9,484.6,1091.9,488.1z"/>
+               <path fill="none" stroke="#231F20" stroke-width="0.7847" stroke-miterlimit="10" d="M1091.9,488.1c0,3.5-3.5,6.4-7.8,6.4h-73.7
+                 c-4.3,0-7.8-2.9-7.8-6.4c0-3.5,3.5-6.4,7.8-6.4h73.7C1088.4,481.7,1091.9,484.6,1091.9,488.1z"/>
+             </g>
+           </g>
+           <g>
+             <path fill="#51AE5F" d="M537.7,694.3c0,6.6-5.4,12-12,12H324.3c-6.6,0-12-5.4-12-12V576.2c0-6.6,5.4-12,12-12h201.4
+               c6.6,0,12,5.4,12,12V694.3z"/>
+           </g>
+           <g>
+             <g>
+               <g>
+                 <path fill="#232323" d="M1029.2,588.9c-2.3,0.1-4.1-1.7-4-4l1.6-49.3c0.1-2.3-1-4.1-2.5-4.1s-4.5,0-6.7,0h-33.9
+                   c-2.3,0-5.3,0-6.7,0c-1.4,0-2.6,1.9-2.5,4.1l1.6,49.3c0.1,2.3-1.7,4.1-4,4l-49.3-1.6c-2.3-0.1-4.1,1-4.1,2.5s0,4.5,0,6.7v33.9
+                   c0,2.3,0,5.3,0,6.7s1.9,2.6,4.1,2.5l49.3-1.6c2.3-0.1,4.1,1.7,4,4l-1.6,49.3c-0.1,2.3,1,4.1,2.5,4.1s4.5,0,6.7,0h33.9
+                   c2.3,0,5.3,0,6.7,0c1.4,0,2.6-1.9,2.5-4.1l-1.6-49.3c-0.1-2.3,1.7-4.1,4-4l49.3,1.6c2.3,0.1,4.1-1,4.1-2.5s0-4.5,0-6.7v-33.9
+                   c0-2.3,0-5.3,0-6.7s-1.9-2.6-4.1-2.5L1029.2,588.9z"
+
+                   />
+               </g>
+             </g>
+             <g>
+               <path fill="#444444" d="M1022.1,635c1.6,1.6,4.8,3,7,3l49.3,1.6c2.3,0.1,4.1-1,4.1-2.5s0-4.5,0-6.7v-33.9c0-2.3,0-5.3,0-6.7
+                 s-1.9-2.6-4.1-2.5l-49.3,1.6c-2.3,0.1-4.1-1.7-4-4l1.6-49.3c0.1-2.3-1-4.1-2.5-4.1s-4.5,0-6.7,0h-33.9c-2.3,0-5.3,0-6.7,0
+                 c-1.4,0-2.6,1.9-2.5,4.1l1.6,49.3c0.1,2.3,1.4,5.4,3,7L1022.1,635z"
+                 onmouseover="evt.target.setAttribute('opacity', '0.5');" onmouseout="evt.target.setAttribute('opacity','1)');"
+                 />
+             </g>
+           </g>
+           <g>
+             <circle fill="#D8B716" cx="681.9" cy="681" r="33.6"/>
+             <circle fill="#FFE024" cx="679.8" cy="677.7" r="26.4"/>
+           </g>
+           <g>
+             <circle fill="#F3CD33" cx="164.3" cy="577.7" r="27.6"/>
+             <circle fill="#47BA78" cx="164.3" cy="692.7" r="27.6"/>
+             <circle fill="#4993C3" cx="106.8" cy="635.2" r="27.6"/>
+             <circle fill="#C9574B" cx="221.8" cy="635.2" r="27.6"/>
+             <path fill="#EFC20F" d="M183.8,597.3c-10.8,10.8-28.3,10.8-39.1,0c-10.8-10.8-10.8-28.3,0-39.1L183.8,597.3z"
+             onmouseover="evt.target.setAttribute('opacity', '0.5');" onmouseout="evt.target.setAttribute('opacity','1)');"/>
+             <path fill="#27AE60" d="M183.8,712.3c-10.8,10.8-28.3,10.8-39.1,0c-10.8-10.8-10.8-28.3,0-39.1L183.8,712.3z"
+             onmouseover="evt.target.setAttribute('opacity', '0.5');" onmouseout="evt.target.setAttribute('opacity','1)');"/>
+             <path fill="#2980B9" d="M126.3,654.6c-10.8,10.8-28.3,10.8-39.1,0c-10.8-10.8-10.8-28.3,0-39.1L126.3,654.6z"
+             onmouseover="evt.target.setAttribute('opacity', '0.5');" onmouseout="evt.target.setAttribute('opacity','1)');"/>
+             <path fill="#C0392B" d="M241.3,654.6c-10.8,10.8-28.3,10.8-39.1,0c-10.8-10.8-10.8-28.3,0-39.1L241.3,654.6z"
+             onmouseover="evt.target.setAttribute('opacity', '0.5');" onmouseout="evt.target.setAttribute('opacity','1)');"/>
+           </g>
+         </g>
+         <g>
+           <path fill="#62D16F" d="M322.4,570.6c-5.6-3.5-4.8-6.4,1.8-6.4h201.4c6.6,0,12,5.4,12,12v118.1c0,6.6-4.6,9.1-10.2,5.6L322.4,570.6
+             z"/>
+         </g>
+         </svg>
+      </div>

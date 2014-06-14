@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html style="padding-top: 100px;">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>Slide like Mailbox - CodePen</title>
+
+    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+    <script src='https://cdn.firebase.com/js/client/1.0.15/firebase.js'></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js'></script>
+
+</head>
+
+<body>
+<section>
+
+
+
+  <div class = "iphonebar">
+    <img src="images\iphonebar.png">
+  </div>
+
+  <div class  = "feedimg">
+    <p> FEED </p>
+    <div class="buttonpost"
+    <div class="button"><input type="image" src="images\postpost.png" border="0" alt="Submit" />
+  <div id='form'>
+  <form action='#'>
+    <div id='head'></div>
+    <img src="images\compose.png">
+    <textarea id="confessionDiv" width: 613px; height: 450px; style="margin: 0px 9.994369506835938px 4.997184753417969px; width: 609px; height: 391px;"></textarea><br />
+    <div class ="submitwrapper">
+      <input  type='submit' value='' id="submitButton" class = "confesssubmit"/>
+    </div>
+    <img src="images\qwerty.png">
+
+  </form>
+</div></div>
+</div>
+  </div>
+
+  <script>
+  var myDataRef = new Firebase('https://blackbox.firebaseio.com/');
+  $('#confessionDiv').keypress(function (e) {
+    if(e.keyCode == 13) {
+      var text = $('#confessionDiv').val();
+      var date = new Date();
+      date = date.toString();
+      myDataRef.push({text: text, date: date});
+      $('#confessionDiv').val('');
+
+      $(".slider-list").prepend("<li class='slide'> <p class='message'>" + text + "</p> <time>" + date + "</time> </li>");
+    }});
+
+  $('#submitButton').click(function (e) {
+    var text = $('#confessionDiv').val();
+    var date = new Date();
+    date = date.toString();
+    myDataRef.push({text: text, date: date});
+    $('#confessionDiv').val('');
+
+    console.log("Triggered"); 
+
+    $(".slider-list").prepend("<li class='slide'> <p class='message'>" + text + "</p> <time>" + date + "</time> </li>");
+  });
+  </script>
+
+  <div style="overflow: auto; width:640px; height:1000px;">
+    <ul class="slider-list">
+      <li class="slide">
+        <p class="message">Hungover and vomiting at church</p>
+        <time>2 mins ago</time>
+      </li>
+      <li class="slide">
+        <p class="message">I love children. Almost as much as I love when they shut the fuck up </p>
+        <time>1 hour ago</time>
+      </li>
+      <li class="slide">
+        <div id="confessions">
+        <p class="message">It was scary to see glacier’s melting before my very eyes. Scarier to think that the EPA wants to shut down my dad’s chemical factory.</p>
+        </div>
+        <time>Yesterday 13:37</time>
+      </li>
+      <li class="slide">
+        <div id="confessions">
+        <p class="message">I run the biggest yoga studio in my area, all cause I’ve been lying about my credentials for years.</p>
+        </div>
+        <time>22/10 14:46</time>
+      </li>
+      <li class="slide">
+        <div id="confessifons">
+        <p class="message">Breaking up with my boyfriend of 2 years. I never loved him…</p>
+        <time>23/3 13:33</time>
+        </div>
+      </li>
+      <li class="slide">
+        <div id="confessions">
+        <p class="message">High school football coach just walked into the restaurant I work at. Spitting in his dinner.</p>
+        </div>
+        <time>2/7 1967</time>
+      </li>
+    </ul>
+</div>
+</section>
+</body>
+
+  <script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/hammer.js/1.0.5/jquery.hammer.min.js'></script>
+
+  <script src="js/index.js"></script>
+  <script src="js/index2.js"></script>
+
+</body>
+
+</html>

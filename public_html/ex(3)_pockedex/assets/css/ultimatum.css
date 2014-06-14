@@ -1,0 +1,38 @@
+@font-face {
+  font-family: pixelmix;
+  src: url('../fonts/pixelmix/pixelmix.ttf')  format('truetype');
+  color: #474747;
+}
+
+* {
+  font-family: pixelmix;
+  src: url(../fonts/pixelmix/pixelmix.ttf)  format('truetype');
+  color: #474747;
+}
+
+.pockemon_name{	
+	margin: .5em 0;
+	font-size: 1.2em;
+}
+
+h1 { 
+	margin-top: .1em;
+	margin-bottom: .2em;
+	margin-left: .2em;
+	margin-right: .2em;
+}
+
+ul.pockebilities {
+	margin-top: .5em;
+    list-style: none;
+    padding-left: 1.2em;
+    text-indent: -1em;
+    line-height: 1.2em;
+}
+
+li:before {
+    content: "›";
+    display: block;
+    float: left;
+    width: .75em;
+}
