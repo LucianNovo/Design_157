@@ -1,0 +1,160 @@
+
+
+@import url("http://fonts.googleapis.com/css?family=Raleway:400,300,600");
+@font-face { font-family: gothambook; src: url(../fonts/GothamNarrow-Book.otf);}
+@font-face { font-family: gothamthin; src: url(../fonts/GothamNarrow-Thin.otf);}
+
+
+.confesssubmit { 
+    background-image: url(../images/confess.png);
+    background-position:  0px 0px;
+    background-repeat: no-repeat;
+    width: 580px;
+    height: 101px;
+    border: 0px;
+    cursor: pointer;
+    outline: 0;
+  }
+.submitwrapper
+{
+  padding-left: 20px;
+}
+
+
+.button{
+  background-image: url(../images/postpost.png);
+  width:20px;
+  height: 20px;
+  background:transparent;
+  cursor: pointer;
+}
+
+form.json{ 
+  display: none;
+  position: absolute;
+  top: 0px;
+  width: 640px;
+  background: grey;
+}
+form.json input[type='text'],form.json label,form.json input[type='submit'],form.json textarea{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+form.json textarea{
+  margin-bottom: 5px;
+}
+.close{
+  position:absolute;
+  top: 0px; right: 5px;
+  margin:0px;
+  cursor: pointer;
+}
+
+
+
+/*ABOVE IS FOR MAKING A POST */
+
+.slider-list {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
+
+.compose
+{
+  position: absolute;
+}
+.textform input{
+  padding-top:60px;
+  position: absolute;
+  
+}
+
+.feedimg p
+{
+  font-family:gothambook;
+  color:white;
+  font-size: 50px;
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+  padding-left: 260px;
+  padding-top: 20px;
+}
+
+.buttonpost{
+  position: absolute;
+  padding-left:0px;
+  padding-top:20px;
+}
+
+.feedimg{
+  width:640px;
+  height:102px;
+  background-color:#333333;
+  position: relative;
+
+}
+
+.slide {
+  margin: 0;
+  background-color: black;
+  padding: 1.5em 1em;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #278279;
+  -webkit-user-select: none; 
+  -webkit-user-drag: none; 
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.message {
+  max-width: 620px;
+  /*white-space: nowrap;*/
+  overflow: hidden;
+  padding-bottom: 15px;
+}
+
+.subject {
+  font-weight: bold;
+  color: black;
+}
+
+time {
+  font-size: .8em;
+}
+
+/* RESETS */
+body, h1, h2, h3, p {
+  margin: 0;
+  font-family: gothamthin, sans-serif;
+  color: white;
+  font-size: 30px;
+}
+
+
+body  section{
+  width:  640px;
+  height: 1146px;
+  margin: 10px auto;
+  box-sizing: content-box;
+  z-index: 100;
+  background-color: black;
+  /*width: 320px;
+  height: 573;*?/
+  /* border: 1px solid black;
+  border-radius: 60px 60px 30px 30px;
+  border: 10px solid #000;
+  border-top-width: 60px;
+  border-bottom-width: 30px;*/
+}
+*
+nav {
+  width: 100%;
+  height: 60px;
+  background: #333;
+  text-align: center;
+  padding: 10px 0 0;
+}
+
